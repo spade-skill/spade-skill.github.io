@@ -1,9 +1,9 @@
 {
   "format": "oni-static-build-v1",
-  "createdAt": "2026-10-12T15:10:45.598Z",
+  "createdAt": "2026-10-12T15:50:04.928Z",
   "originalFileCount": 89,
   "originalDataBytes": 580250269,
-  "runtimeBytes": 607615234,
+  "runtimeBytes": 607615219,
   "verifiedCopies": [
     {
       "path": "index.html",
@@ -28,12 +28,12 @@
     {
       "path": "engine/Oni.js",
       "size": 387393,
-      "sha256": "676dd2ea1b0eb7938c04a327cf9612114986db9bb7970f8838c911581d28f549"
+      "sha256": "33d6aa9a75eed33c7b5b0dd7c97cb917c26af83acf7318ace123aed36d53c351"
     },
     {
       "path": "engine/Oni.wasm",
-      "size": 2498429,
-      "sha256": "06594138793b74a318c176588da8970d4bd8b7799baa5e8627636e6130c68edb"
+      "size": 2498414,
+      "sha256": "11b405aad01f63e0c07dec45be71bd4e09fbb3de3dc4b09605a470970e4f04c8"
     },
     {
       "path": "movies/intro.mp4",
@@ -498,11 +498,11 @@
     "artifacts": {
       "Oni.js": {
         "size": 387393,
-        "sha256": "676dd2ea1b0eb7938c04a327cf9612114986db9bb7970f8838c911581d28f549"
+        "sha256": "33d6aa9a75eed33c7b5b0dd7c97cb917c26af83acf7318ace123aed36d53c351"
       },
       "Oni.wasm": {
-        "size": 2498429,
-        "sha256": "06594138793b74a318c176588da8970d4bd8b7799baa5e8627636e6130c68edb"
+        "size": 2498414,
+        "sha256": "11b405aad01f63e0c07dec45be71bd4e09fbb3de3dc4b09605a470970e4f04c8"
       }
     },
     "customSections": [],
