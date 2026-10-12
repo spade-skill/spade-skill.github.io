@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oni · Original engine browser port</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <header><h1>Oni</h1><p>Original engine · original game data · WebAssembly port</p></header>
+    <section class="setup" aria-label="Engine launcher">
+      <p id="status" role="status">Checking the compiled engine and original game files…</p>
+      <label for="scope">Load original resources</label>
+      <select id="scope">
+        <option value="first">Main menu + warehouse / tutorial</option>
+        <option value="all">Entire campaign (about 554 MiB, plus engine memory)</option>
+      </select>
+      <p id="data-note" class="muted"></p>
+      <div class="buttons">
+        <button id="boot" disabled>Run original Oni engine</button>
+        <button id="import-save" disabled>Import save before starting</button>
+        <input id="save-file" type="file" accept=".dat" hidden>
+        <button id="lock" disabled>Capture mouse</button>
+        <button id="fullscreen" disabled>Fullscreen</button>
+        <button id="save" disabled>Download save</button>
+      </div>
+      <p id="import-note" class="muted">Import an engine save before starting. An existing browser save is backed up before replacement.</p>
+      <progress id="progress" max="1" value="0" aria-label="Original data loading progress"></progress>
+    </section>
+    <section class="viewport" aria-label="Original Oni game canvas">
+      <div id="game-surface">
+        <canvas id="canvas" width="640" height="480" tabindex="0" aria-label="Original Oni engine output"></canvas>
+        <div id="movie-overlay" hidden role="dialog" aria-modal="true" aria-label="Original Oni movie">
+          <video id="movie-video" playsinline preload="auto" aria-label="Oni cinematic"></video>
+          <div class="movie-controls">
+            <span id="movie-message" role="status"></span>
+            <button id="movie-play" hidden>Play movie with sound</button>
+            <button id="movie-skip">Skip movie</button>
+            <button id="movie-fullscreen">Fullscreen</button>
+          </div>
+        </div>
+      </div>
+      <p id="canvas-note">The canvas displays only output from the compiled original engine. Until it boots, it is empty.</p>
+    </section>
+    <p class="controls">Original defaults: WASD move · F punch · C kick · Space jump · Shift crouch · Ctrl action · Q swap · E drop · R reload · Tab hypo. Click the canvas to focus; Escape releases the mouse.</p>
+    <p class="muted">The initial resource selection supports the menu and first mission. Choose the entire campaign before starting for subsequent levels.</p>
+    <p id="save-note" class="muted">Movies play from converted copies. Save persistence is checked at startup; download your save before closing if storage is unavailable.</p>
+    <details open><summary>Engine diagnostics</summary><pre id="log" aria-live="off"></pre></details>
+  </main>
+  <script src="./movies.js"></script>
+  <script src="./loader.js"></script>
+</body>
+</html>

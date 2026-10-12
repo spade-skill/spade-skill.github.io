@@ -1,0 +1,4 @@
+# The sanitized engine/Oni.wasm is required and intentionally not ignored.
+# Do not publish optional debugging artifacts.
+/engine/*.map
+/engine/*.debug.wasm

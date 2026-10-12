@@ -1,0 +1,459 @@
+{
+  "format": "oni-host-v1",
+  "hosting": "static",
+  "defaultScope": "all",
+  "javascript": true,
+  "wasm": true,
+  "engineReady": true,
+  "movies": {
+    "intro": true,
+    "outro": true
+  },
+  "files": [
+    {
+      "path": "IGMD/Airport/airport_cutscene.bsl",
+      "size": 4757,
+      "sha256": "1f5334feed65abac1e27ec75e7d27fe993fff26aba15e406486085b81eeeaf6c"
+    },
+    {
+      "path": "IGMD/Airport/airport_main.bsl",
+      "size": 317,
+      "sha256": "2a89dce0c1df572b57a1d638bd69ab001d7413ad2eb86c98b8a52f6dad2f77e1"
+    },
+    {
+      "path": "IGMD/Airport/airport1_level_logic.bsl",
+      "size": 12972,
+      "sha256": "26739ce001cdd6feac85bdbaf01ab921df96c50cde2fd7953ddfc58ccaf1e2a5"
+    },
+    {
+      "path": "IGMD/Airport_III/airport2_cutscene.bsl",
+      "size": 2566,
+      "sha256": "2492d78af822333596ad68612ec8bf8b4cf31fc443db208d47b3a95794f37853"
+    },
+    {
+      "path": "IGMD/Airport_III/airport2_level_logic.bsl",
+      "size": 22123,
+      "sha256": "1baea9c180491f72b811cb1d0d29302d541ced7fdda4153153254932c8f9f1cb"
+    },
+    {
+      "path": "IGMD/Airport_III/airport2_main.bsl",
+      "size": 372,
+      "sha256": "cbab6755207a8f3a0a78f519430e3fd8a7bab3de0f67294debd971d5b402228b"
+    },
+    {
+      "path": "IGMD/compound/compound_cutscene.bsl",
+      "size": 16124,
+      "sha256": "e4c107fded136755799ff48353bf4641f245d0c4c5b2e34b234856e72888968f"
+    },
+    {
+      "path": "IGMD/compound/compound_main.bsl",
+      "size": 972,
+      "sha256": "9ac53402c1d95a26ff2cb564d951eafb26bd22990c1aa24d2a5736cc506c1585"
+    },
+    {
+      "path": "IGMD/compound/compound.bsl",
+      "size": 30788,
+      "sha256": "c5018329569c1570da3f2858073b57e7c74878b61552a5d2c4d12be1e3fe03ca"
+    },
+    {
+      "path": "IGMD/compound/particle_scripts.bsl",
+      "size": 759,
+      "sha256": "71a4fe1842dd588c5fef684298cf9a1b9a3f6b09772a0ac5b8405c3fc5b593b7"
+    },
+    {
+      "path": "IGMD/dream_lab/dream_lab_cutscene.bsl",
+      "size": 10022,
+      "sha256": "49fec081bb1d76d709719026a1be4ffc0e5e66cd57d4e765a7a1729bfab9d3de"
+    },
+    {
+      "path": "IGMD/dream_lab/dream_lab_logic.bsl",
+      "size": 14002,
+      "sha256": "958950cb6f2ad101556d780d220274c6a84e32dc42ee1a0fda4edef6237243fd"
+    },
+    {
+      "path": "IGMD/dream_lab/dream_lab_main.bsl",
+      "size": 439,
+      "sha256": "900801ea3d3eefaa2099621cc5493f04e5dde30277edb4318360f748ffc7433e"
+    },
+    {
+      "path": "IGMD/dream_lab/particle_scripts.bsl",
+      "size": 1598,
+      "sha256": "3a2576a6c531f572640b470defff2dd4a989f59a5bb23e654e2835fbd35573b9"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_anim_scripts.bsl",
+      "size": 695,
+      "sha256": "d09230b30e3bea48ea302726b056646f6245cc03dfcef57871e51788742861c1"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_cutscene.bsl",
+      "size": 10227,
+      "sha256": "9c30cb6f8657bb1c513aff9d982f08c2909a6f6b3f4e7bbf0697d710015dccf4"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_level_scripts.bsl",
+      "size": 17672,
+      "sha256": "1a9696c7b19cf4146493eb0bd306507010adc4d955ad408152608fb723bcfcb3"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_main.bsl",
+      "size": 235,
+      "sha256": "a8b76db93d94096cab734c9359751c8cfaf8bcc1bebd8e73d105c2f6aecb4bfc"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_particles.bsl",
+      "size": 840,
+      "sha256": "b5d2cce1d43b4f8d6d1b784c8f6fe78aaf343c0f631fad35cc8c104cf190bcb8"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_train2.bsl",
+      "size": 20323,
+      "sha256": "cd3084624db0cfecbe35b731375f8f2540409363287bf2f807f50993b54dee2f"
+    },
+    {
+      "path": "IGMD/EnvWarehouse/warehouse_training_scripts.bsl",
+      "size": 21743,
+      "sha256": "3633647dfc38e712a695ff10eb8513e6d77c635987de9be7c53bea6995924010"
+    },
+    {
+      "path": "IGMD/lab/lab_cutscene.bsl",
+      "size": 8697,
+      "sha256": "20d71e93818c0d6751d93179d9ffeb6a12ce8b503d50f5e7f06ee7299dd72c43"
+    },
+    {
+      "path": "IGMD/lab/lab_level_logic.bsl",
+      "size": 15557,
+      "sha256": "304a164d34e7838587e9d2772b3dbda033c2060bd7e03b6512175cf0cac8626f"
+    },
+    {
+      "path": "IGMD/lab/lab_main.bsl",
+      "size": 507,
+      "sha256": "affbeee2f00e2a376e0814835132a8abc0aa9dbac21ae6a64ace07e5965376d9"
+    },
+    {
+      "path": "IGMD/lab/particle_scripts.bsl",
+      "size": 178,
+      "sha256": "8e866f4fddef72c10bbe86bed82040297701a2cf2ccd4c78983578347df22950"
+    },
+    {
+      "path": "IGMD/manplant/manplant_anim_scripts.bsl",
+      "size": 793,
+      "sha256": "9bdd76c4bbfee8754f2f0525cf056010b142f0586b34c97fc51b2fd1b1e4888d"
+    },
+    {
+      "path": "IGMD/manplant/manplant_cutscene.bsl",
+      "size": 10242,
+      "sha256": "58902485186db6ce29f40077749501b1e00ecb0f974cffd50b5c5dd27aa20360"
+    },
+    {
+      "path": "IGMD/manplant/manplant_level_logic.bsl",
+      "size": 20944,
+      "sha256": "63bd08c074192ce34f578ca5aea02ae75211db2f0ae102a401156831f9ea6284"
+    },
+    {
+      "path": "IGMD/manplant/manplant_main.bsl",
+      "size": 507,
+      "sha256": "1754c07aaf9180d5a274f8dbbaebb741d43597fff6d57fa79e13249384c06833"
+    },
+    {
+      "path": "IGMD/manplant/particle_scripts.bsl",
+      "size": 368,
+      "sha256": "8fc9e77b8a600dd87b8014d3c2936eb78f4c3c5cdcaced54d6b0a1f2343120bc"
+    },
+    {
+      "path": "IGMD/neuro/neuro_cutscene.bsl",
+      "size": 23089,
+      "sha256": "c1191e7cdf1a3cd924d39522f7880ab63c7638d49cba1c045019f44a890c0db7"
+    },
+    {
+      "path": "IGMD/neuro/neuro_level_logic.bsl",
+      "size": 21652,
+      "sha256": "97baaeee6e9c6e3c71ef4163552ffec2ee779a87d5490b7c2465b8f70bb76cb0"
+    },
+    {
+      "path": "IGMD/neuro/neuro_main.bsl",
+      "size": 305,
+      "sha256": "6d66f6f46f61367698ca9e7568487ee51fec8cde2d13cf6f1bc71035fa7a2d15"
+    },
+    {
+      "path": "IGMD/neuro/particle_scripts.bsl",
+      "size": 1857,
+      "sha256": "b4f0640113b3c0dccd218563a09e9a3cf8c2bed8de8cd8535c2639e4964d7e6f"
+    },
+    {
+      "path": "IGMD/power/particle_scripts.bsl",
+      "size": 464,
+      "sha256": "53d149febbdd778e32577d26bdf453558dfde1faff52471b028c0c1db855775d"
+    },
+    {
+      "path": "IGMD/power/power_cutscene.bsl",
+      "size": 10321,
+      "sha256": "0e62b734a3f9f9a4ed2fe2dfdb7426e379707dc15ba54f2cbbec157b38a9e28e"
+    },
+    {
+      "path": "IGMD/power/power_main.bsl",
+      "size": 436,
+      "sha256": "e5c3a6193e9f72b6a348f599d5aadd185e108700d2b4749b89bd713ddd2da725"
+    },
+    {
+      "path": "IGMD/power/power_objectives.bsl",
+      "size": 3326,
+      "sha256": "a6178ad8afb4358ed42a1b9ec21a6165954efb8815402d5dfca6fdd1acd45481"
+    },
+    {
+      "path": "IGMD/power/power_spawn.bsl",
+      "size": 13105,
+      "sha256": "a8723fbb246a540a8bd0b8b866f3bd938836495b8b2f5ee9e65bb3c96645a593"
+    },
+    {
+      "path": "IGMD/power_II/particle_scripts.bsl",
+      "size": 3589,
+      "sha256": "48a6f0d1dad7449f3dc3a0e49c633e7a79962f81f50b09d58a2f47fb8cd51f2e"
+    },
+    {
+      "path": "IGMD/power_II/power_II_main.bsl",
+      "size": 369,
+      "sha256": "2cdd37910fa437d5074d10cd45741708c2819b5aecd717495783a7dc94e035b7"
+    },
+    {
+      "path": "IGMD/power_II/power2_spawn.bsl",
+      "size": 12198,
+      "sha256": "f0ad96e24c53aac437ff1cb0db5061c872c1edff4f98e412a8684aa96324607d"
+    },
+    {
+      "path": "IGMD/power_II/powerII_cutscene.bsl",
+      "size": 14393,
+      "sha256": "e0ba0158d45cc5c51295ecae4b30f3ec7e8ddff1a199edcf7770cf5f7a581e82"
+    },
+    {
+      "path": "IGMD/roof/particle_scripts.bsl",
+      "size": 9579,
+      "sha256": "2130158f481714ae45449cfb727b060ef5fa2a9ba8958dad149ec4ed045473c1"
+    },
+    {
+      "path": "IGMD/roof/roof_cutscene.bsl",
+      "size": 7569,
+      "sha256": "0ea5e28624aac4a574dfa0bd880eaab82e39732577615f6bf7ec3a9eb779689b"
+    },
+    {
+      "path": "IGMD/roof/roof_main.bsl",
+      "size": 272,
+      "sha256": "4807fc0e51cd50da493dcf4ed63655bb5ae1fda56cc2964a10fcc3bbc08c41d1"
+    },
+    {
+      "path": "IGMD/roof/roof.bsl",
+      "size": 16371,
+      "sha256": "40f53452ac77b06fa27614f15dacdd1e9c12d9366916fda024490bc68230109d"
+    },
+    {
+      "path": "IGMD/state/state_cutscene.bsl",
+      "size": 9557,
+      "sha256": "9447097bc2b290fc7bd3e69405a5b40dfd7afd1b8882cb8dedb415e45f3718be"
+    },
+    {
+      "path": "IGMD/state/state_level_logic.bsl",
+      "size": 11407,
+      "sha256": "da7da7b3b153db60dcf254dfbd1d92a6dfdc0a9ddfe861376d0dcbcf29d77ea1"
+    },
+    {
+      "path": "IGMD/state/state_main.bsl",
+      "size": 340,
+      "sha256": "6eb5e9f11e38ff33bbd91a73ec85be729e5efd0a345114722ce71c6103dd9a05"
+    },
+    {
+      "path": "IGMD/tctf/particle_scripts.bsl",
+      "size": 1704,
+      "sha256": "0e280636c90bf20842b93a9ee666213ee2312b48f41c491df8b0b95dc3bc9c65"
+    },
+    {
+      "path": "IGMD/tctf/tctf_cutscene.bsl",
+      "size": 15240,
+      "sha256": "e68f9f68317bfd7166ff8219e431083a46d73d29523307776519a9d9d67318f0"
+    },
+    {
+      "path": "IGMD/tctf/tctf_door_lock_lights.bsl",
+      "size": 560,
+      "sha256": "a402d783152549342eda86bb346c9344d2f776db7285f787c1dc8b88cfcc4694"
+    },
+    {
+      "path": "IGMD/tctf/tctf_main.bsl",
+      "size": 332,
+      "sha256": "811c592d624b65eb551374f71d4d37cd7576e20c998632f4993f36fe30a93ea3"
+    },
+    {
+      "path": "IGMD/tctf/tctf_objectives.bsl",
+      "size": 1479,
+      "sha256": "86556e2296384a68329403ea13a7bf30806a990f496fac3e1bcfb92cd3909565"
+    },
+    {
+      "path": "IGMD/tctf/tctf_spawn_syndicate.bsl",
+      "size": 18215,
+      "sha256": "d7650873442ab2b00ac972358336903a1084f579b74487e310b3794db730801d"
+    },
+    {
+      "path": "IGMD/tctf_ii/tctf_ii_cutscene.bsl",
+      "size": 11283,
+      "sha256": "ca685170d560acb7412b8f98812145c81bf1ca45453d40c0935a7cc38e466d23"
+    },
+    {
+      "path": "IGMD/tctf_ii/tctf_ii_main.bsl",
+      "size": 681,
+      "sha256": "e0aa9cc81dab237cd0a53a0fd93d4a457cacef237d728413a7a354dd90624426"
+    },
+    {
+      "path": "IGMD/tctf_ii/tctf2.bsl",
+      "size": 34313,
+      "sha256": "9b9b9e7f4afd3d2974057333de060f9d753ae92234ef3e9d315bb3558150e704"
+    },
+    {
+      "path": "level0_Final.dat",
+      "size": 2834756,
+      "sha256": "4b7fc8d3fb59efc102d9e251d34f0111194cd3a77935a69b4d8fb13e00657d57"
+    },
+    {
+      "path": "level0_Final.raw",
+      "size": 32645984,
+      "sha256": "0f480c9d9b017082bbb04dfaa476768768a1a967215cc636b658f120854b9ee9"
+    },
+    {
+      "path": "level1_Final.dat",
+      "size": 9225830,
+      "sha256": "56cf6bcae1f3bcc25742d84464403b5a779e636eb1cffb41c5dd1c555fd692e9"
+    },
+    {
+      "path": "level1_Final.raw",
+      "size": 37211488,
+      "sha256": "4b652040adcfdb60c626e039f8a98ba7e7ffb1a3e86b5832915e3db755e76ecf"
+    },
+    {
+      "path": "level10_Final.dat",
+      "size": 12233231,
+      "sha256": "142796671c40dcf0b40da0fb937d081b3acde31844eae21b11bc9e7b310629f8"
+    },
+    {
+      "path": "level10_Final.raw",
+      "size": 36213408,
+      "sha256": "0564233d2d0fc515af4d95afa9d5482940c15a5721b6a6df6362d56749413e6b"
+    },
+    {
+      "path": "level11_Final.dat",
+      "size": 10078231,
+      "sha256": "2a6a7209ed274cd0cd2e074433b76e0bcedd8612d8f06e70bfe1b3861f4b5cf2"
+    },
+    {
+      "path": "level11_Final.raw",
+      "size": 23314688,
+      "sha256": "05f575b3a576982781166d5523d4f1d6419ec743fbfae458a7f3cefff7e1af2d"
+    },
+    {
+      "path": "level12_Final.dat",
+      "size": 8891882,
+      "sha256": "f18e1f7ef9230783ea7ae1b668c09ff0a7bed72a302873a8b7f0f601a2f7f377"
+    },
+    {
+      "path": "level12_Final.raw",
+      "size": 24810720,
+      "sha256": "488369e736c7be9c5f5602baead7d9791650b1654d4a98ff7e63a444af1ca68e"
+    },
+    {
+      "path": "level13_Final.dat",
+      "size": 5148690,
+      "sha256": "0a7415832c41913b4d64a0074aa4b21165788cb0cbf3657db1cd03efe3c448c3"
+    },
+    {
+      "path": "level13_Final.raw",
+      "size": 28409408,
+      "sha256": "4d513a72bcb91694c829aec2b2da0da0fe5d3bf05b9f3606b6cf878a1506221c"
+    },
+    {
+      "path": "level14_Final.dat",
+      "size": 10039427,
+      "sha256": "8f2374ff6c4fdd36c8cfc14a28594992da7fa6c665b7301592f7b6c455633950"
+    },
+    {
+      "path": "level14_Final.raw",
+      "size": 31566752,
+      "sha256": "baf93089a1cfcd78519fae62797c88dacc17305bdf776684e85dae8848dda00a"
+    },
+    {
+      "path": "level18_Final.dat",
+      "size": 10190295,
+      "sha256": "56b61e95634205a513a233096a606434b02b7865b8ca6eae9ed45d30f79cffba"
+    },
+    {
+      "path": "level18_Final.raw",
+      "size": 28774208,
+      "sha256": "a15a2efd08a2eea99b86507a8442c9b2667cba9e0eeae3c2221a0f4d3517dbeb"
+    },
+    {
+      "path": "level19_Final.dat",
+      "size": 11273519,
+      "sha256": "6fe84dd2a33205a13ea3f6dee048fdd967b824993fe1f3cc6a69f9507144ddb5"
+    },
+    {
+      "path": "level19_Final.raw",
+      "size": 34123872,
+      "sha256": "61f6759d2dcd77a4f4494560a7e6ca8a60f04d7e07f54a27bf36fc8db3b52759"
+    },
+    {
+      "path": "level2_Final.dat",
+      "size": 7746752,
+      "sha256": "3ab4c483d8d835a5ea94fd18c2a0733874bc5bdcdbf3c4bd2e21f57c31aec17f"
+    },
+    {
+      "path": "level2_Final.raw",
+      "size": 28153984,
+      "sha256": "8aa35d64119c25a218d6df10a6062c6a9b069882f30f229bddfe874fefe0935d"
+    },
+    {
+      "path": "level3_Final.dat",
+      "size": 10057210,
+      "sha256": "ba4a29775b44539b942ca2bb480102c8a9085ddc7e9cc38c1e8626f71b7d4254"
+    },
+    {
+      "path": "level3_Final.raw",
+      "size": 23813344,
+      "sha256": "d65e326a7c7196e61d23c09dc4eb7c76d6103bdc9a9399548101f9543fa16ceb"
+    },
+    {
+      "path": "level4_Final.dat",
+      "size": 9108782,
+      "sha256": "71e7dc25fdd7393713f0e6e7728f64b74cbbb75f9db0c337b515f4564c7e9765"
+    },
+    {
+      "path": "level4_Final.raw",
+      "size": 25191232,
+      "sha256": "b0faf96081a0d72ef027b9581a9b794f0858d9afba3ac529fbe5290c53a1811f"
+    },
+    {
+      "path": "level6_Final.dat",
+      "size": 10589595,
+      "sha256": "4747da0631fcafee8ec32654c4a26bd94a9e1404273b0d588e197924a1734eb4"
+    },
+    {
+      "path": "level6_Final.raw",
+      "size": 26611936,
+      "sha256": "f51b7edde5ee277265dd0fe64d1978a1eae0d4430cf8a8682ef5eb791a45d69d"
+    },
+    {
+      "path": "level8_Final.dat",
+      "size": 13131091,
+      "sha256": "2c37de7616368451607bb5c9c07b50b04bf74e0fa62a976962d499ca3a786ec8"
+    },
+    {
+      "path": "level8_Final.raw",
+      "size": 31178720,
+      "sha256": "573f211456840a7f03afad63482a52eb68a9a9d08ef9618bddc46bc4fd6a40b2"
+    },
+    {
+      "path": "level9_Final.dat",
+      "size": 11535489,
+      "sha256": "f3c060286a5d3f4a547bf9591f83bb0e10300ff3ee6b51fc7671154a3b93b942"
+    },
+    {
+      "path": "level9_Final.raw",
+      "size": 25654400,
+      "sha256": "c30b23a7ed8cee98dc687315787570aa2de1d0b484d79568cf4d809c348a56a1"
+    }
+  ]
+}
